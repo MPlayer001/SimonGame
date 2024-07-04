@@ -8,7 +8,7 @@ var userClickedPattern = [];
 var start = false;
 var level = 0;
 
-$(document).keydown(function () {
+$(document).ready(function () {
   //Display the level
   if (start == false) {
     $("#level-title").text("Level " + level);
